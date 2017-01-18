@@ -1,0 +1,25 @@
+{
+  "name": "fbm-desktop",
+  "version": "0.0.0",
+  "description": "A Facebook Messenger client written in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/lyneca/fbm-desktop",
+  "keywords": [
+    "facebook",
+    "messenger",
+    "electron",
+    "chat",
+  ],
+  "author": "lyneca",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "facebook-chat-api": "^1.2.0",
+  }
+}
